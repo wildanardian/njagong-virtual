@@ -55,6 +55,9 @@ Buat sebuah database terlebih dahulu dengan menggunakan mysql dengan nama virtua
 # .env
 DB_DATABASE=virtual-asisten-be
 ```
+![image](https://github.com/user-attachments/assets/60d36107-267f-49f5-b89c-b68dbe85ec5c)
+
+
 Jalankan command ini untuk membuat tabel di dalam database
 ```bash
 php artisan migrate
