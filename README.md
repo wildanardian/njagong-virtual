@@ -31,17 +31,17 @@ git clone https://github.com/wildanardian/njagong-virtual.git
 cd njagong-virtual
 ```
 
-# Masuk ke direktori backend
+Masuk ke direktori backend
 ```bash
 cd backend
 ```
 
-# Install semua file yang diperlukan
+Install semua file yang diperlukan
 ```bash
 composer install
 ```
 
-# Copy semua yang ada di dalam .env.example ke dalam .env
+Copy semua yang ada di dalam .env.example ke dalam .env
 ```bash
 cp .env.example .env
 ```
@@ -51,7 +51,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-# Buat sebuah database terlebih dahulu dengan menggunakan mysql dengan nama virtual-asisten-be (cek pada file .env di bagian ini), kemudian eksekusi command berikut
+Buat sebuah database terlebih dahulu dengan menggunakan mysql dengan nama virtual-asisten-be (cek pada file .env di bagian ini), kemudian eksekusi command berikut
 ```bash
 DB_DATABASE=virtual-asisten-be
 ```
@@ -60,24 +60,24 @@ DB_DATABASE=virtual-asisten-be
 php artisan migrate
 ```
 
-# Jalankan backend dengan menggunakan command berikut
+Jalankan backend dengan menggunakan command berikut
 ```bash
 php artisan serve
 ```
 
 -------------------------------------------------------
 
-# Masuk ke dalam direktori frontend
+Masuk ke dalam direktori frontend
 ```bash
 cd ../frontend
 ```
 
-# Jalankan command berikut untuk install semua file yang diperlukan
+Jalankan command berikut untuk install semua file yang diperlukan
 ```bash
 npm install
 ```
-# Jalankan command untuk memulai project ini
+Jalankan command untuk memulai project ini
 ```bash
 npm start
 ```
-# Note : pastikan backend dan frontend berjalan bersama-sama
+Note : pastikan backend dan frontend berjalan bersama-sama
