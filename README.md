@@ -63,6 +63,7 @@ php artisan migrate
 Jalankan backend dengan menggunakan command berikut
 ```bash
 php artisan serve
+![image](https://github.com/user-attachments/assets/7e8a3f2a-7a95-4a01-b545-b31f38c3a704)
 ```
 
 -------------------------------------------------------
