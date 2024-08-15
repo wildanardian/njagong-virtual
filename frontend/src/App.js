@@ -70,7 +70,7 @@ function App() {
     <div className="container-fluid">
       <div className="row vh-100">
         <div className="col-md-3 p-0 bg-light border-right">
-          <ChatHistory sessions={sessions} loadConversation={loadConversation} startNewChat={startNewChat} />
+          <ChatHistory sessions={sessions} loadConversation={loadConversation} startNewChat={startNewChat} activeSessionId={currentSessionId}/>
         </div>
         <div className="col-md-9 p-0">
           <ChatWindow messages={messages} />
