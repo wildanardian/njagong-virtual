@@ -64,7 +64,7 @@ Jalankan backend dengan menggunakan command berikut
 ```bash
 php artisan serve
 ```
-[image](https://github.com/user-attachments/assets/c899f3b6-b2ff-45d5-95c3-94190c2d0ce4)
+![php artisan serve](https://github.com/user-attachments/assets/c899f3b6-b2ff-45d5-95c3-94190c2d0ce4)
 
 
 -------------------------------------------------------
