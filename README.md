@@ -45,17 +45,17 @@ Copy semua yang ada di dalam .env.example ke dalam .env
 ```bash
 cp .env.example .env
 ```
-
+Generate key untuk projek ini
 ```bash
-# Generate key untuk projek ini
 php artisan key:generate
 ```
 
-Buat sebuah database terlebih dahulu dengan menggunakan mysql dengan nama virtual-asisten-be (cek pada file .env di bagian ini), kemudian eksekusi command berikut
+Buat sebuah database terlebih dahulu dengan menggunakan mysql dengan nama virtual-asisten-be (cek pada file .env di bagian ini)
 ```bash
+# .env
 DB_DATABASE=virtual-asisten-be
 ```
-
+Jalankan command ini untuk membuat tabel di dalam database
 ```bash
 php artisan migrate
 ```
