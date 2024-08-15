@@ -25,18 +25,35 @@ Salin dan jalankan perintah berikut untuk mengkloning repositori dan memulai pro
 # Clone repositori
 git clone https://github.com/wildanardian/njagong-virtual.git
 
+```bash
 # Masuk ke direktori proyek
 cd njagong-virtual
 
+```bash
 # Jalankan backend
 cd backend
+```bash
 composer install
+```bash
 cp .env.example .env
+```bash
 php artisan key:generate
-php artisan migrate
-php artisan serve &
 
+#Buat sebuah database terlebih dahulu dengan menggunakan mysql, kemudian eksekusi command berikut: 
+```bash
+php artisan migrate
+```bash
+php artisan serve
+
+```bash
 # Jalankan frontend
 cd ../frontend
+
+```bash
 npm install
+
+#kemudian untuk menjalankannya
+```bash
 npm start
+
+#pastikan backend dan frontend berjalan semuanya
