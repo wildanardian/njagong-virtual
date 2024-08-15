@@ -19,10 +19,24 @@ Sebelum memulai, pastikan Anda memiliki perangkat lunak berikut yang diinstal di
 
 ## Langkah-Langkah Menjalankan Proyek
 
-### 1. Clone Repositori
-
-Pertama, clone repositori ke komputer lokal Anda:
+Salin dan jalankan perintah berikut untuk mengkloning repositori dan memulai proyek backend dan frontend:
 
 ```bash
+# Clone repositori
 git clone https://github.com/wildanardian/njagong-virtual.git
+
+# Masuk ke direktori proyek
 cd njagong-virtual
+
+# Jalankan backend
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve &
+
+# Jalankan frontend
+cd ../frontend
+npm install
+npm start
